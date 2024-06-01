@@ -158,7 +158,7 @@ const styles = StyleSheet.create({
     fontSize: 20,
     justifyContent: "center",
     alignItems: "center",
-    fontWeight: "bold",
+    fontWeight: 'bold',
   },
   taskHeader: {
     fontSize: 24,

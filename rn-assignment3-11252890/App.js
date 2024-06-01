@@ -3,6 +3,7 @@ import { View, Text, StyleSheet, Image, TouchableOpacity, TextInput, FlatList, S
 import { Feather } from '@expo/vector-icons';
 import categories from './categories.json';
 import Task from './Task.json';
+import { FontAwesome5 } from '@expo/vector-icons';
 
 export default function App() {
    const info = categories[0];
@@ -17,11 +18,15 @@ export default function App() {
         <Text style={styles.headerText}>Hello, Devs</Text>
         <Text style={styles.headerSubText}>14 tasks today</Text>
         </View>
-        <Image source={require('./assets/download.png')}/>
+        <Image source={require('./assets/download.png')} style={styles.userIcon}/>
       </View>
       <View style={styles.searchbar}>
         <Feather name="search" size={24} color="black" />
         <TextInput placeholder='Search' style={styles.searchText}/>
+        <View style={styles.slider}>
+        <FontAwesome5 name="sliders-h" size={24} color="black" />
+        </View>
+        
       </View>
 
       <View style={styles.categories}>
@@ -63,7 +68,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#F2F2F2',
+    backgroundColor: '#f7f0e8',
   },
   header: {
     flexDirection: 'row',
@@ -77,13 +82,14 @@ const styles = StyleSheet.create({
   },
   headerSubText: {
     fontSize: 16,
-    color: '#888888',
+    color: '#000',
     fontWeight: 500
   },
   userIcon: {
-    width: 40,
-    height: 40,
-    borderRadius: 20,
+    width: 65,
+    height: 65,
+    borderRadius: 35,
+    backgroundColor: '#fff'
   },
   searchbar: {
     flexDirection: 'row',
@@ -98,6 +104,13 @@ const styles = StyleSheet.create({
   searchText: {
     fontSize: 16,
     paddingHorizontal: 10,
+    flex: 1,
+    height: '100%'
+  },
+  slider: {
+    backgroundColor: 'orange',
+    padding: 7,
+    borderRadius: 10,
   },
   categoryHeader:{
     fontSize: 24,
@@ -121,8 +134,9 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: 'bold',
     color: '#000000',
-    marginLeft: 10,
-    alignItems: 'flex-start'
+   
+    alignItems: 'flex-start',
+
   },
   categoryImage: {
     width: 100,
@@ -136,8 +150,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#fff",
     justifyContent: "center",
-    padding: 10,
-    padding: 35,
+    padding: 50,
     borderRadius: 10,
     marginLeft: 30,
     marginRight: 30
@@ -145,7 +158,8 @@ const styles = StyleSheet.create({
   taskName: {
     fontSize: 20,
     justifyContent: "center",
-    alignItems: "center"
+    alignItems: "center",
+    fontWeight: "bold",
   },
   taskHeader: {
     fontSize: 24,

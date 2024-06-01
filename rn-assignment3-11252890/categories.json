@@ -1,0 +1,48 @@
+[
+  {
+    "categoryName": "Exercise",
+    "categoryTask": "12 tasks",
+    "categoryImage": "./assets/young woman working.png"
+  },
+  {
+    "categoryName": "Study",
+    "categoryTask": "12 tasks",
+    "categoryImage": "./assets/woman working.png"
+  },
+  {
+    "categoryName": "Code",
+    "categoryTask": "12 tasks",
+    "categoryImage": "./assets/young woman working.png"
+  },
+  {
+    "categoryName": "Cook",
+    "categoryTask": "12 tasks",
+    "categoryImage": "./assets/woman working.png"
+  },
+  {
+    "categoryName": "Clean",
+    "categoryTask": "12 tasks",
+    "categoryImage": "./assets/young woman working.png"
+  },
+  {
+    "categoryName": "Test",
+    "categoryTask": "12 tasks",
+    "categoryImage": "./assets/woman working.png"
+  },
+  {
+    "categoryName": "Eat",
+    "categoryTask": "12 tasks",
+    "categoryImage": "./assets/young woman working.png"
+  },
+  {
+    "categoryName": "Rest",
+    "categoryTask": "12 tasks",
+    "categoryImage": "./assets/woman working.png"
+  },
+  {
+    "categoryName": "Wash",
+    "categoryTask": "12 tasks",
+    "categoryImage": "./assets/young woman working.png"
+  }
+  
+]

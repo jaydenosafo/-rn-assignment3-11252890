@@ -15,6 +15,6 @@
 
 -FlatList: The FlatList is a component used for rendering a list of items
 
--Image: The Image component is used for diaplaying images
+* Image: The Image component is used for diaplaying images
 
 -Stylesheet: a module used for creating a style object that can be used with components. It is used to style components components created

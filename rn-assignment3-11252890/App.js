@@ -134,7 +134,6 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: 'bold',
     color: '#000000',
-   
     alignItems: 'flex-start',
 
   },

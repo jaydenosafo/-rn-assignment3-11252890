@@ -95,7 +95,8 @@ const styles = StyleSheet.create({
   },
   searchbarContainer: {
     flexDirection: 'row',
-    alignItems: 'center'
+    alignItems: 'center',
+    flex: 1
   },
   searchbar: {
     flexDirection: 'row',
@@ -106,7 +107,7 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     marginVertical: 20,
     height: 49,
-    width: 280
+    width: 290,
   },
   searchText: {
     fontSize: 16,
@@ -129,10 +130,10 @@ const styles = StyleSheet.create({
   },
   categoriesContainer:{
     alignItems: 'flexstart',
-    padding: 25,
+    padding: 15,
     backgroundColor: '#fff',
-    width: 186,
-    height: 200,
+    width: 250,
+    height: 250,
     borderRadius: 10,
     marginLeft: 30,
     Top: 249,
@@ -143,13 +144,14 @@ const styles = StyleSheet.create({
     fontWeight: 500,
     color: '#000000',
     alignItems: 'flex-start',
+    
   },
   categoryImage: {
     width: '100%',
     height: '100%',
     marginLeft: 35,
-    marginTop: 10,
-    alignItems: 'center'
+    justifyContent: 'center',
+    alignContent: 'center'
   },
   taskContainer: {
     flex: 1,

@@ -20,14 +20,16 @@ export default function App() {
         </View>
         <Image source={require('./assets/download.png')} style={styles.userIcon}/>
       </View>
+      <View style={styles.searchbarContainer}>
       <View style={styles.searchbar}>
         <Feather name="search" size={24} color="black" />
         <TextInput placeholder='Search' style={styles.searchText}/>
-        <View style={styles.slider}>
-        <FontAwesome5 name="sliders-h" size={24} color="black" />
-        </View>
-        
       </View>
+      <View style={styles.slider}>
+        <FontAwesome5 name="sliders-h" size={27} color="white" />
+      </View>
+      </View>
+      
 
       <View style={styles.categories}>
         <Text style={styles.categoryHeader}>Categories</Text>
@@ -83,13 +85,17 @@ const styles = StyleSheet.create({
   headerSubText: {
     fontSize: 16,
     color: '#000',
-    fontWeight: 500
+    fontWeight: 450
   },
   userIcon: {
     width: 65,
     height: 65,
     borderRadius: 35,
     backgroundColor: '#fff'
+  },
+  searchbarContainer: {
+    flexDirection: 'row',
+    alignItems: 'center'
   },
   searchbar: {
     flexDirection: 'row',
@@ -100,6 +106,7 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     marginVertical: 20,
     height: 49,
+    width: 280
   },
   searchText: {
     fontSize: 16,
@@ -109,8 +116,9 @@ const styles = StyleSheet.create({
   },
   slider: {
     backgroundColor: 'orange',
-    padding: 7,
+    padding: 10,
     borderRadius: 10,
+    height: 50
   },
   categoryHeader:{
     fontSize: 24,

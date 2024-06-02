@@ -1,6 +1,5 @@
 # rn-assignment3-11252890
 
-
 ## Components Used
 
 * View: The 'View' component serves as a container that supports flexbox layout, and style
@@ -18,3 +17,8 @@
 * Image: The Image component is used for diaplaying images
 
 * Stylesheet: a module used for creating a style object that can be used with components. It is used to style components components created
+
+## Screenshots
+
+![App Screenshot](assets/Screenshot%202024-06-02%20083439.png)
+

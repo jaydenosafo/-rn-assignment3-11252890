@@ -20,5 +20,5 @@
 
 ## Screenshots
 
-![App Screenshot](assets/Screenshot%202024-06-02%20083439.png)
+![App Screenshot](assets/Screenshot 2024-06-02 165432.png)
 
